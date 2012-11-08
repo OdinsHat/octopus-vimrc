@@ -59,7 +59,7 @@ set listchars=tab:->,trail:- " show tabs and trailing space
 
 " Colour setup
 set bg=dark
-colorscheme solarized
+silent! colorscheme solarized
 syntax on
 
 " Search
