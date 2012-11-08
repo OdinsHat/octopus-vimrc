@@ -19,6 +19,7 @@ Bundle 'The-NERD-tree'
 Bundle 'mako.vim'
 Bundle 'mako.vim--Torborg'
 Bundle 'taglist.vim'
+Bundle 'Solarized'
 
 filetype plugin indent on " required for vundle
 
