@@ -51,8 +51,6 @@ if has("autocmd")
 endif
 
 set backspace=indent,eol,start
-map <leader>v :sp ~/.vimrc<cr>
-map <leader>m :w!<cr>
 
 " UI Setings
 set cursorline
@@ -87,6 +85,8 @@ set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [POS=%04
 nnoremap <silent> <F6> :TlistToggle<CR>
 noremap <leader>b :NERDTreeToggle \| :NERDTreeMirror<CR>
 noremap <leader>B :NERDTreeFind<CR>
+map <leader>v :sp ~/.vimrc<cr>
+map <leader>w :w!<cr>
 map <leader>x :tabclose<CR>
 map <leader>n :tabnew<CR>
 map <silent> <leader>[ :tabprev<CR>
