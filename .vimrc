@@ -13,11 +13,11 @@ Bundle 'python.vim'
 Bundle 'python.vim--Vasiliev'
 Bundle 'pyflakes.vim'
 Bundle 'pydoc.vim'
+Bundle 'mako.vim'
+Bundle 'mako.vim--Torborg'
 " use :Pydoc keyword to search python docs
 Bundle 'pep8'
 Bundle 'The-NERD-tree'
-Bundle 'mako.vim'
-Bundle 'mako.vim--Torborg'
 Bundle 'taglist.vim'
 Bundle 'Solarized'
 
