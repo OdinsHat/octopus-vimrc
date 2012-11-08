@@ -54,7 +54,7 @@ set backspace=indent,eol,start
 
 " UI Setings
 set cursorline
-" set list
+set list
 set listchars=tab:->,trail:- " show tabs and trailing space
 
 " Colour setup
