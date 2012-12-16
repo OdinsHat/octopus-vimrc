@@ -51,10 +51,6 @@ if has("autocmd")
     au FileType helpfile set nonumber
     au BufWritePost *.sh !chmod +x %
     au BufRead,BufNewFile *.php,*.js,*.css,*.html set tw=78
-                                                                                                                                                                                                                                                      
-    au BufRead,BufNewFile *.rb,*.erb,*.rhtml,*.haml set sw=2
-    au BufRead,BufNewFile *.rb,*.erb,*.rhtml,*.haml set sts=2
-    au BufRead,BufNewFile *.rb,*.erb,*.rhtml,*.haml set tw=78
 endif
 
 set backspace=indent,eol,start
