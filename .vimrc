@@ -85,6 +85,7 @@ set ls=2
 set statusline=%F%m%r%h%w\ [FORMAT=%{&ff}]\ [TYPE=%Y]\ [ASCII=\%03.3b]\ [POS=%04l,%04v][%p%%]\ [LEN=%L]
 
 " Key mappings
+let mapleader = ","
 nnoremap <silent> <F6> :TlistToggle<CR>
 noremap <leader>b :NERDTreeToggle \| :NERDTreeMirror<CR>
 noremap <leader>B :NERDTreeFind<CR>
