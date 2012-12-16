@@ -92,8 +92,7 @@ map <leader>v :sp ~/.vimrc<cr>
 map <leader>w :w!<cr>
 map <leader>x :tabclose<CR>
 map <leader>n :tabnew<CR>
-map <silent> <leader>[ :tabprev<CR>
-map <silent> <leader>] :tabnext<CR>
+
 set notimeout
 if has("autocmd")
     au BufRead,BufNewFile *.html inoremap <buffer> ;d <div><Return><Return></div><Esc><Up>i<Tab>
