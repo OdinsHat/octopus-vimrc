@@ -27,6 +27,13 @@ set number
 set nowrap
 set noerrorbells
 set title
+set hidden
+set novisualbell
+set showmatch
+set history=1000
+set autoread
+set title
+set ttyfast
 
 " Indentation settings
 set tabstop=4
@@ -91,3 +98,9 @@ map <leader>x :tabclose<CR>
 map <leader>n :tabnew<CR>
 map <silent> <leader>[ :tabprev<CR>
 map <silent> <leader>] :tabnext<CR>
+set notimeout
+if has("autocmd")
+    au BufRead,BufNewFile *.html inoremap <buffer> ;d <div><Return><Return></div><Esc><Up>i<Tab>
+    au BufRead,BufNewFile *.html inoremap <buffer> ;a <a href=""></a><Esc>F"i
+    au BufRead,BufNewFile *.html inoremap <buffer> ;i <img src="" alt="" /></a><Esc>3F"i
+endif
