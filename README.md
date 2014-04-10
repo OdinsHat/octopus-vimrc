@@ -9,8 +9,8 @@ Requirements
 ------------
 * [Git](http://git-scm.com/)
 * [Vundle](https://github.com/gmarik/Vundle.vim) - Vim plugin manager.
-  
+
   Installing Vundle to make this vimrc work just requires tjhe following 
   command:
-  
+
   `$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
