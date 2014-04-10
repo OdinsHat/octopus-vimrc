@@ -6,20 +6,20 @@ call vundle#rc()
 
 " let Vundle manage Vundle
 " required! 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
 " Python
-Bundle 'python.vim'
-Bundle 'python.vim--Vasiliev'
-Bundle 'pyflakes.vim'
-Bundle 'pydoc.vim'
-Bundle 'mako.vim'
-Bundle 'mako.vim--Torborg'
+Plugin 'python.vim'
+Plugin 'python.vim--Vasiliev'
+Plugin 'pyflakes.vim'
+Plugin 'pydoc.vim'
+Plugin 'mako.vim'
+Plugin 'mako.vim--Torborg'
 " use :Pydoc keyword to search python docs
-Bundle 'pep8'
-Bundle 'The-NERD-tree'
-Bundle 'taglist.vim'
-Bundle 'Solarized'
+Plugin 'pep8'
+Plugin 'The-NERD-tree'
+Plugin 'taglist.vim'
+Plugin 'Solarized'
 
 filetype plugin indent on " required for vundle
 
