@@ -13,4 +13,8 @@ Requirements
   Installing Vundle to make this vimrc work just requires tjhe following 
   command:
 
-  `$ git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle`
+  `$ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
+  
+  After that open vim and run the following command:
+  
+  `:PluginInstall`
