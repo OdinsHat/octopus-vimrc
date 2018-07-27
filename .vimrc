@@ -20,6 +20,12 @@ Plugin 'pep8'
 Plugin 'The-NERD-tree'
 Plugin 'taglist.vim'
 Plugin 'Solarized'
+Plugin 'jwalton512/vim-blade'
+Plugin 'noahfrederick/vim-laravel'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-surround'
+Plugin 'scrooloose/syntastic'
+
 
 filetype plugin indent on " required for vundle
 
@@ -100,3 +106,15 @@ if has("autocmd")
     au BufRead,BufNewFile *.html inoremap <buffer> ;a <a href=""></a><Esc>F"i
     au BufRead,BufNewFile *.html inoremap <buffer> ;i <img src="" alt="" /></a><Esc>3F"i
 endif
+
+" Syntastic Settings
+set statusline+=%#warningmsg#
+" set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_php_checkers = ['php', 'phpcs']
+let g:syntastic_python_checkers = ['pylint']
