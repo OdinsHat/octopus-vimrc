@@ -1,9 +1,11 @@
 OdinsHat .vimrc
 ===============
 Just the .vimrc file I use across most of my machines for 
-[Vim](http://www.vim.org/).
+[Vim](http://www.vim.org/) ~7.4.
 Although I now prefer and use the excellent 
 [Sublime text editor](http://www.sublimetext.com/3) when I can.
+
+I've since moved to [NeoVim](https://neovim.io/) (as opposed to Vim8).
 
 Requirements
 ------------
